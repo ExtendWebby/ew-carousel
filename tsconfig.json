@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "carousel": [
-        "dist/carousel"
+      "ew-carousel": [
+        "dist/ew-carousel"
       ],
-      "carousel/*": [
-        "dist/carousel/*"
+      "ew-carousel/*": [
+        "dist/ew-carousel/*"
       ]
     }
   },
