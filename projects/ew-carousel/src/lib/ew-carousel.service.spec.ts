@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { CarouselService } from './carousel.service';
+import { EwCarouselService } from './ew-carousel.service';
 
 describe('CarouselService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: CarouselService = TestBed.get(CarouselService);
+    const service: EwCarouselService = TestBed.get(EwCarouselService);
     expect(service).toBeTruthy();
   });
 });
