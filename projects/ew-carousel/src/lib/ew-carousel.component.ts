@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-carousel',
+  selector: 'ew-carousel',
   template: `
     <p>
       carousel works!
@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: []
 })
-export class CarouselComponent implements OnInit {
+export class EwCarouselComponent implements OnInit {
 
   constructor() { }
 
