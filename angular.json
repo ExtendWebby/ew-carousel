@@ -158,6 +158,14 @@
               "devServerTarget": "carousel-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://extendwebby.github.io/ew-carousel/",
+            "name": "Angular Carousel Libraty",
+            "email": "extend.webby@gmail.com"
+          }
         }
       }
     }
