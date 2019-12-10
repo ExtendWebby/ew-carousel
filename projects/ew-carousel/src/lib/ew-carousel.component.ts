@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'ew-carousel',
   template: `
-    <p>
-      carousel works!
-    </p>
+    <p>carousel works!</p>
   `,
   styles: []
 })
