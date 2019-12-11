@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "app:test": "ng test carousel-app",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:carousel": "ng build ew-carousel",
