@@ -1,12 +1,10 @@
-import { TestBed, async } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
+import { async, TestBed } from '@angular/core/testing';
 import { DocsComponent } from './docs.component';
 
 describe('DocsComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule
       ],
       declarations: [
         DocsComponent
@@ -14,7 +12,7 @@ describe('DocsComponent', () => {
     }).compileComponents();
   }));
 
-  it('should create', () => {
+  it('should be created', () => {
     const fixture = TestBed.createComponent(DocsComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
